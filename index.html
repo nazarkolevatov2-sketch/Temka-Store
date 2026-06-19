@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temka Store</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<header class="header">
+<div class="logo">🍏 Temka Store</div>
+
+<nav>
+<a href="#home">Головна</a>
+<a href="#products">Продаж</a>
+<a href="#reviews">Відгуки</a>
+</nav>
+
+<button class="cart-btn">
+🛒 <span id="cartCount">0</span>
+</button>
+</header>
+
+<section class="hero" id="home">
+<h1>Digital Marketplace</h1>
+<p>Арбітраж • Крипта • Telegram • AI</p>
+</section>
+
+<section class="categories">
+<div class="category">💰 Арбітраж</div>
+<div class="category">📈 Крипта</div>
+<div class="category">📱 Telegram</div>
+<div class="category">🤖 AI</div>
+</section>
+
+<section class="products" id="products">
+<h2>Товари</h2>
+<div class="products-grid" id="productsGrid"></div>
+</section>
+
+<!-- CART -->
+<div class="cart" id="cart">
+<div class="cart-header">
+<h2>Кошик</h2>
+<button id="closeCart">✕</button>
+</div>
+
+<div id="cartItems"></div>
+
+<div class="total">
+Разом: <span id="totalPrice">0$</span>
+</div>
+
+<button class="buy-btn">Оплатити</button>
+</div>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+<h2>Відгуки</h2>
+
+<div class="reviews-grid">
+<div class="review-card">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>Швидко отримав доступ, все працює 🔥</p>
+</div>
+
+<div class="review-card">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>Дуже якісний магазин, рекомендую</p>
+</div>
+
+<div class="review-card">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+<p>Найкращий сервіс для digital товарів</p>
+</div>
+</div>
+</section>
+
+<footer id="footer">
+Temka Store
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
